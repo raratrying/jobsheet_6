@@ -3,7 +3,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
+    <div class="container bg-secondary">
         <div class="row">
             <div class="col-md-12">
                 <h2>Edit Student</h2>
@@ -22,7 +22,7 @@
                         <label for="phone_number">Nomor Telepon:</label>
                         <input type="text" name="phone_number" class="form-control" value="{{ $student->profile->phone_number }}">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-light">Submit</button>
                 </form>
             </div>
         </div>
